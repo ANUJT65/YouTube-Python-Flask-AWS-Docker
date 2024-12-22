@@ -34,9 +34,11 @@
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
     ```
+
 * add docker to the user to use it without sudo
     ```bash
     sudo groupadd docker
     sudo usermod -aG docker $USER
     ```
-
+  1)  https://www.youtube.com/watch?v=bQP3f9iP2A0&list=LL&index=4
+  2) https://docs.docker.com/engine/install/ubuntu/
