@@ -40,15 +40,15 @@
     sudo groupadd docker
     sudo usermod -aG docker $USER
     ```
-  1)  https://www.youtube.com/watch?v=bQP3f9iP2A0&list=LL&index=4
-  2) https://docs.docker.com/engine/install/ubuntu/
+- 1)  https://www.youtube.com/watch?v=bQP3f9iP2A0&list=LL&index=4
+- 2) https://docs.docker.com/engine/install/ubuntu/
 
 
-sudo docker build -t youtube-demo .
-sudo docker images
-sudo docker run -p 5000:5000 youtube-demo
-sudo docker run -d -p 5000:5000 --restart unless-stopped  youtube-demo
-sudo docker stop 0656665b(whatever id you got)
+- sudo docker build -t youtube-demo .
+- sudo docker images
+- sudo docker run -p 5000:5000 youtube-demo
+- sudo docker run -d -p 5000:5000 --restart unless-stopped  youtube-demo
+- sudo docker stop 0656665b(whatever id you got)
 sudo docker run -d -p 5000:5000 --restart unless-stopped  youtube-demo
 sudo docker ps
 
